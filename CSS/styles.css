@@ -1,0 +1,90 @@
+h1 {
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+header {
+    background: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.containerrow1 {
+    width: 100%;
+    display: flex;
+    background: #ffc728;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.align {
+    text-align: center;
+}
+.picture {
+    flex: auto;
+    min-width: auto;
+    min-height: auto;
+    max-width: 500px;
+    max-height: auto;
+}
+
+.intcontainerL {
+    flex: 1;
+    background: red;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intcontainerM {
+    flex: 1;
+    background: pink;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intcontainerR {
+    flex: 1;
+    background: cyan;  
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intcontainerBL {
+    flex: 1;
+    background: blue;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intcontainerBM {
+    flex: 1;
+    background: yellow;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intcontainerBR {
+    flex: 1;
+    background: green;  
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .containerrow1 {
+        flex-direction: column;
+    }
+    .picture {
+        max-width: 400px;
+    }
+    
+}
+
