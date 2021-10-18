@@ -4,9 +4,13 @@ h1 {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
+
 
 header {
-    background: blue;
     text-align: center;
     padding: 20px;
 }
@@ -14,10 +18,31 @@ header {
 .containerrow1 {
     width: 100%;
     display: flex;
-    background: #ffc728;
+    
     box-sizing: border-box;
     flex-direction: row;
 }
+
+.containerrow2 {
+    width: 100%;
+    display: flex;
+    
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.containerrow1 article {
+    border-top: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 4px solid black;
+}
+
+.containerrow2 article {
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
 
 .align {
     text-align: center;
@@ -33,7 +58,7 @@ header {
 
 .intcontainerL {
     flex: 1;
-    background: red;
+    
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -41,7 +66,7 @@ header {
 
 .intcontainerM {
     flex: 1;
-    background: pink;
+    
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -49,7 +74,7 @@ header {
 
 .intcontainerR {
     flex: 1;
-    background: cyan;  
+      
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -57,7 +82,7 @@ header {
 
 .intcontainerBL {
     flex: 1;
-    background: blue;
+    
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -65,7 +90,7 @@ header {
 
 .intcontainerBM {
     flex: 1;
-    background: yellow;
+    
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +98,7 @@ header {
 
 .intcontainerBR {
     flex: 1;
-    background: green;  
+  
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -83,8 +108,31 @@ header {
     .containerrow1 {
         flex-direction: column;
     }
+    .containerrow2 {
+        flex-direction: column;
+    }
     .picture {
         max-width: 350px;
     }   
 }
+
+footer {
+    
+    height: 100%;
+    margin-bottom: -40px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
+footer article ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer article h3 {
+    margin: 0;
+}
+
+
+
 
