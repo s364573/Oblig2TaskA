@@ -8,9 +8,12 @@ body {
     margin: 0;
 }
 
-
+nav {
+    color: white;
+}
 
 header {
+    background: #0A2E36;
     text-align: center;
     padding: 20px;
 }
@@ -58,7 +61,7 @@ header {
 
 .intcontainerL {
     flex: 1;
-    
+    background: #27FB6B;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -66,7 +69,7 @@ header {
 
 .intcontainerM {
     flex: 1;
-    
+    background: #14CC60;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -74,7 +77,7 @@ header {
 
 .intcontainerR {
     flex: 1;
-      
+    background: #036D19;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -82,7 +85,7 @@ header {
 
 .intcontainerBL {
     flex: 1;
-    
+    background: #14CC60;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -90,7 +93,7 @@ header {
 
 .intcontainerBM {
     flex: 1;
-    
+    background: #036D19;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -98,7 +101,7 @@ header {
 
 .intcontainerBR {
     flex: 1;
-  
+    background: #27FB6B;
     padding: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -117,7 +120,8 @@ header {
 }
 
 footer {
-    
+    background: #0A2E36;
+    color: white;
     height: 100%;
     margin-bottom: -40px;
     text-align: center;
