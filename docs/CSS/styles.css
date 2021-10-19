@@ -1,7 +1,7 @@
 h1 {
     font-size: 30px;
     font-family:'Roboto', sans-serif;
-    margin: 0;
+    margin: 20px;
 }
 
 body {
@@ -13,13 +13,14 @@ nav {
 }
 
 header {
+    
     background: #0A2E36;
     text-align: center;
     padding: 20px;
 }
 
 .containerrow1 {
-    width: 100%;
+    
     display: flex;
     
     box-sizing: border-box;
@@ -27,7 +28,7 @@ header {
 }
 
 .containerrow2 {
-    width: 100%;
+    
     display: flex;
     
     box-sizing: border-box;
@@ -46,17 +47,23 @@ header {
     border-right: 2px solid black;
 }
 
-
+img {
+    flex: 1 1 auto;
+}
 .align {
     text-align: center;
+}
+
+section article p {
+    font-size: 20px;
 }
 
 .picture {
     flex: auto;
     min-width: auto;
-    min-height: auto;
-    max-width: 500px;
-    max-height: auto;
+    min-height: 375px;
+    max-width: 350px;
+    max-height: 375px;
 }
 
 .intcontainerL {
@@ -107,7 +114,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .containerrow1 {
         flex-direction: column;
     }
@@ -118,6 +125,21 @@ header {
         max-width: 350px;
     }   
 }
+
+@media (min-width: 958px ) and (max-width: 1280px) {
+    .picture {
+        max-width: 250px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 958px) {
+    .picture {
+        max-width: 150px;
+    }
+}
+
+
 
 footer {
     background: #0A2E36;
