@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="CSS/stylereflection.css">
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
 <title>Reflection page</title>
 </head>
 
@@ -10,11 +12,34 @@
             <h1>Reflection page</h1>
         </nav>
     </header>
-<p>When creating the flexbox we struggled many hours on how to make the picture align itself centered in the middle of each container. But wrapping 
-    it araound a div and using text-align fixed the problem. Then we struggled on how to make the pictures resize relative to the screensize. We knew 
-    that using @media and max-width to mobile screen size we could make the pictures sized realtive to the screen size. The problem was when shrinking the 
-    pictures from computerscreen
-    size to mobile screensize. It would make the right pictures dissapear until the media funkction kicked in at a bout 768px.</p>
+<div class="container">
+<p>We started off this project by making the wireframe in Figma. We just found some simple videos on youtube on how to make a wireframe. 
+    The wireframe part went pretty easy, but when we were gonna implement the it problems kept appearing. We were also wondering wich way 
+    we wanted to display the pictures, but ended up with flexbox. When creating the flexbox we struggled many hours on how to make the picture 
+    align itself centered in the middle of each container. But wrapping it araound a div and using text-align fixed the problem. Then we struggled 
+    on how to make the pictures resize relative to the screensize. We knew that using @media and max-width to mobile screen size we could make the 
+    pictures sized realtive to the screen size. The problem was when shrinking the pictures from the computerscreen size to mobile screensize. It 
+    would make the right pictures dissappear until the media query kicked in at about 768px. Since we used bigger screens like 27 inch the ratio 
+    was so bad on regular computerscreens. Since the usual computerscreen is about 1300-1400px wide we made a media query that made the pictures 
+    width smaller so it would fit the screen much better if it went down lower than 1280px. We also made one media query as said for mobile. 
+    When it went below 768px in width the flexbox direction was switched to column and the picture width was lowered to fit the screen.
+</p>
+<img src="img/wireframepc.png" class="picturesize">
+<img src="img/wireframephone.png">
+
+</div>
+<footer>
+    <article>
+        <h1>The main page</h1>
+        <p><a href="index.html" style="color: yellow;">Click here</a></p>
+        <ul>
+            <li><h3>Made by:</h3></li>
+            <li>Alexander Paulsen(s364573)</li>
+            <li>Dennis Johnsen(s364521)</li>
+            <li>Håkon Westengen Limseth(s364534)</li>
+        </ul>
+    </article>
+</footer>
 </body>
 
 </html>

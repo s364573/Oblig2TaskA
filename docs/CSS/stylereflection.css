@@ -1,0 +1,34 @@
+header {
+    color: white;
+    background: #0A2E36;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+footer {
+    background: #0A2E36;
+    color: white;
+    height: 100%;
+    margin-bottom: -40px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 7px;
+}
+footer article ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer article h3 {
+    margin: 0;
+}
+
+@media (min-width:200px) and (max-width: 752px) {
+    .picturesize {
+        max-width: 400px;
+    }
+}

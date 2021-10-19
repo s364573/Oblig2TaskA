@@ -8,29 +8,22 @@ body {
     margin: 0;
 }
 
-nav {
-    color: white;
-}
 
 header {
-    
+    color: white;
     background: #0A2E36;
     text-align: center;
     padding: 20px;
 }
 
 .containerrow1 {
-    
     display: flex;
-    
     box-sizing: border-box;
     flex-direction: row;
 }
 
 .containerrow2 {
-    
     display: flex;
-    
     box-sizing: border-box;
     flex-direction: row;
 }
@@ -62,7 +55,7 @@ section article p {
     flex: auto;
     min-width: auto;
     min-height: 375px;
-    max-width: 350px;
+    max-width: 500px;
     max-height: 375px;
 }
 
@@ -126,12 +119,14 @@ section article p {
     }   
 }
 
-@media (min-width: 958px ) and (max-width: 1280px) {
+@media (min-width: 958px ) and (max-width: 1780px) {
     .picture {
         max-width: 250px;
         
     }
 }
+
+
 
 @media (min-width: 768px) and (max-width: 958px) {
     .picture {
