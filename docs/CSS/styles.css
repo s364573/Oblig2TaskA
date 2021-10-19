@@ -122,7 +122,7 @@ section article p {
 @media (min-width: 958px ) and (max-width: 1780px) {
     .picture {
         max-width: 250px;
-        
+        min-height: auto;
     }
 }
 
@@ -131,6 +131,7 @@ section article p {
 @media (min-width: 768px) and (max-width: 958px) {
     .picture {
         max-width: 150px;
+        min-height: auto;
     }
 }
 
