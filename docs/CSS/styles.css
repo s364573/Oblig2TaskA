@@ -52,17 +52,24 @@ section article p {
 }
 
 .picture {
-    flex: auto;
+    /* flex: auto;
     min-width: auto;
     min-height: 375px;
     max-width: 500px;
-    max-height: 375px;
+    max-height: 375px; */
+    max-width: auto;
+    height: 180px;
+    object-fit: cover;
+    object-position: center center;
 }
+
+
 
 .intcontainerL {
     flex: 1;
     background: #27FB6B;
     padding: 30px;
+    padding-right: 30px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
